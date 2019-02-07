@@ -846,6 +846,13 @@
         }
     }
     
+    @media (min-width:768) and (max-width:821px) {
+        /* wrapWhotTheySays */
+        .slideText h3 {
+            margin: 49px 0 32px 0;
+        }
+    }
+    
     @media (max-width:767px) {
         .playerSay {
             flex-wrap: wrap;
