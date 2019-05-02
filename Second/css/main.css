@@ -529,14 +529,14 @@ iframe {
 }
 
 .btn-left {
-    left: -176px;
+    left: -110px;
     top: 35px;
     position: absolute;
 }
 
 .btn-right {
     position: absolute;
-    right: -176px;
+    right: -110px;
     top: 35px;
 }
 
