@@ -106,7 +106,7 @@ playStopVideo();
 
         function start() {
             buildCarousel();
-            // setInterval(moveRight, 8000);
+            setInterval(moveRight, 8000);
         }
 
         start();
@@ -116,4 +116,4 @@ playStopVideo();
 
 })();
 
-// burger-menuq
+// burger-menu
