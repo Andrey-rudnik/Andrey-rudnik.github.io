@@ -1,0 +1,247 @@
+.social {
+  display: flex;
+  justify-content: space-between;
+  background-color: #def5fd;
+  padding-bottom: 9px;
+}
+
+.social .social-left {
+  margin-left: 20.3%;
+  margin-top: 19px;
+  width: 213px;
+  vertical-align: middle;
+}
+
+.social .social-left ul {
+  display: flex;
+}
+
+.social .social-left li {
+  align-self: center;
+}
+
+.social .social-left li:nth-child(2) {
+  padding: 0 29px 0 18px;
+}
+
+.social .social-left li:nth-child(3) {
+  padding-right: 26px;
+}
+
+.social .social-left button {
+  background-color: #def5fd;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline: none;
+}
+
+.social .social-left .arabic,
+.social .social-left .english {
+  font-family: adobe-arabic, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #415863;
+}
+
+.social .social-right {
+  display: flex;
+  margin-right: 20.3%;
+  margin-top: 13px;
+}
+
+.social .social-right .social-right_iKandle {
+  padding-right: 15px;
+  margin-bottom: -3px;
+}
+
+.social .social-right .social-right_divid {
+  border-left: 2px solid #415863;
+  height: 31px;
+  padding-right: 15px;
+  align-self: center;
+}
+
+.navbar {
+  display: flex;
+  margin: 39px 0 13px 20.3%;
+}
+
+.navbar .navbar-search_wrapper {
+  display: flex;
+}
+
+.navbar .navbar-search_wrapper img {
+  height: 33px;
+}
+
+.navbar input {
+  background-color: #fdbc47;
+  width: 130px;
+  color: #415863;
+  border: none;
+  padding: 0;
+  outline: none;
+  height: 34px;
+  padding: 0 12px 2px 12px;
+  margin-left: 7px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: "Assistant", sans-serif;
+}
+
+.navbar .navbar-menu {
+  align-self: center;
+  display: flex;
+}
+
+.navbar .navbar-menu ul {
+  display: flex;
+  height: 22px;
+  margin-top: 9px;
+}
+
+.navbar .navbar-menu li {
+  font-family: "Assistant", sans-serif;
+  font-size: 22px;
+  color: #415863;
+  border-right: 2px solid #415863;
+  padding: 0 20px;
+}
+
+.navbar .navbar-menu li:first-child {
+  padding: 0 15px 0 16px;
+}
+
+.navbar .navbar-menu li:nth-of-type(6) {
+  padding: 0 0 0 19px;
+  border-right: none;
+}
+
+.navbar .navbar-menu li:nth-of-type(5) {
+  padding: 0 16px 0 20px;
+}
+
+.navbar .navbar-menu li:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.navbar .navbar-menu li a {
+  text-decoration: none;
+  color: #415863 !important;
+}
+
+.navbar .navbar-menu_logo {
+  padding-left: 66px;
+  margin-top: -30px;
+}
+
+.navbar .navbar-menu_logo a {
+  cursor: pointer;
+}
+
+.title {
+  background-image: url(../img/main_picture.png);
+  height: 715px;
+}
+
+.title .title-block {
+  position: relative;
+}
+
+.title .title-block_blocks {
+  width: 309px;
+  height: 309px;
+  background-color: #87c7e0;
+  opacity: 0.8;
+  position: absolute;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.title .title-block_blocks:hover {
+  z-index: 2;
+  opacity: 0.9;
+}
+
+.title .community {
+  width: 344px;
+  height: 344px;
+  background-color: #0a76a4;
+  margin-left: 41.9%;
+  margin-top: 201px;
+  z-index: 1;
+}
+
+.title .community img {
+  margin: 27px 0 0 43px;
+}
+
+.title .search {
+  width: 229px;
+  height: 229px;
+  background-color: #e6e6e8;
+  margin-left: 27.2%;
+  margin-top: 154px;
+}
+
+.title .search img {
+  margin: 28px 0 0 128px;
+}
+
+.title .solo {
+  background-color: #e6e6e8;
+  margin-left: 56.5%;
+  margin-top: 305px;
+}
+
+.title .solo img {
+  margin: 167px 0 0 191px;
+}
+
+.title .send {
+  margin-left: 32.1%;
+  margin-top: 293px;
+}
+
+.title .send img {
+  margin: 146px 0 0 39px;
+}
+
+.title .web {
+  margin-left: 51.4%;
+  margin-top: 85px;
+}
+
+.title .web img {
+  margin: 41px 0 0 110px;
+}
+
+.title-link {
+  background-color: #0078a8;
+  padding: 64px 0 71px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.title-link a {
+  color: #ffffff;
+  font-family: "Assistant", sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  text-decoration: none;
+}
+
+.title-link img {
+  margin-left: 10px;
+}
