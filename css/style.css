@@ -1,0 +1,150 @@
+h1{
+    color: #ffffff;
+    text-transform: uppercase;
+}
+ul, li{
+    list-style: none;
+    padding: 0;
+}
+img{
+    width: 100%;
+}
+
+/*----------------Header--------*/
+header{
+    background-color: #5f9fe0;
+}
+.navbar-collapse{
+    text-align: center;
+}
+.navbar-toggler{
+    padding: 0;
+    border: none;
+}
+.navbar-toggler:focus{
+    box-shadow: 0 0 0 0.15rem;
+}
+/*---------------/-Header--------*/
+/*---------Main Image-------------*/
+.main_img{
+    background-image: url("../img/main-img.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.main_img:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.5;
+    background-color: #000000;
+    z-index: 2;
+}
+.main_img_title{
+    position: absolute;
+    z-index: 3;
+    text-align: center;
+    width: 100%;
+}
+.top-main_img__links{
+    margin-top: 20px;
+}
+.top-main_img__links a{
+    color: #000000;
+    background-color: #ffffff;
+    padding: 5px 15px;
+    margin: 0 5px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 500;
+}
+.top-main_img__links a:hover{
+    color: #386cff;
+}
+/*--------/-Main Image-------------*/
+
+/*----------About me----------------*/
+.about-me img{
+    border-radius: 20px;
+}
+
+.work_img{
+    width: 50px;
+}
+/*---------/-About me----------------*/
+
+/*-----------My Works-----------------*/
+
+.works-list_item__img{
+    position: relative;
+    overflow: hidden;
+}
+.works-list_item__img-hover>a{
+    position: absolute;
+    left: -100%;
+    right: 100%;
+    top: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: 0.5;
+    color: #ffffff;
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    transition: .5s ease;
+}
+
+.works-list_item__img:hover .works-list_item__img-hover>a{
+    left: 0;
+    right: 0;
+}
+
+
+/*----------/-My Works-----------------*/
+
+/*-----------Contacts-------------------*/
+
+.linkedin-img img{
+    width: 25px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+/*----------/-Contacts-------------------*/
+
+/*--------------Footer------------------*/
+footer{
+    background-color: #100f44;
+    margin-top: 30px;
+}
+footer a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.to-top{
+    position: relative;
+    text-align: center;
+}
+.to-top img{
+    width: 20px;
+}
+.to-top a{
+    position: absolute;
+    top: -20px;
+    padding: 1px 6px 7px 7px;
+    border: 1px solid #6692ff;
+    background-color: #6692ff;
+    border-radius: 50%;
+}
+
+
+/*-------------/-Footer------------------*/
