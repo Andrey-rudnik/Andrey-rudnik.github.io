@@ -1,9 +1,9 @@
 <!doctype html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="title" content="Andrey-Rudnik-Portfolio">
     <meta name="description" content="Andrey-Rudnik-Portfolio">
@@ -18,7 +18,6 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Portfolio</title>
 </head>
-
 <body>
     <header id="header">
         <nav class="navbar navbar-expand-md navbar-dark">
@@ -57,49 +56,91 @@
                 </div>
             </div>
         </article>
-        <article id="about-me" class="about-me">
+        <article id="about-me" class="about-me mb-5">
             <section class="mt-3">
-                <h2 class="text-center mb-2">About me</h2>
+                <h2 class="text-center mb-3">About me</h2>
                 <div class="container">
                     <div class="row">
-                        <div class="col-12 col-sm-3">
-                            <img src="img/my-img.png" alt="Andrey img">
+                        <div class="col-6 m-auto col-sm-3 col-md-2">
+                            <img class="mb-2" src="img/my-img.png" alt="Andrey img">
                         </div>
-                        <div class="col-12 col-sm-9">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet dolores eligendi esse obcaecati ratione. Architecto dolorum expedita ipsa laudantium, nisi perspiciatis quia quidem quos suscipit! Eos et facilis iure rem.</p>
+                        <div class="col-12 col-sm-9 col-md-10 about-me_info">
+                            <h5>Hello, my name is Andrei Rudnik.</h5>
+                            <p>I'm a Front-end Developer with a commercial experience about 2 years.</p>
+                            <p>During the time of work I gained skills to work under the CEO, optimization and acceleration of sites, also purchase domains, work with ftp.</p>
                         </div>
                     </div>
                 </div>
             </section>
             <section class="my-skills">
-                <h3 class="text-center mb-2">My skills</h3>
+                <h3 class="text-center mb-3">My skills</h3>
                 <div class="container">
                     <div class="row">
                         <div class="col">
-                            <ul>
-                                <li>html</li>
-                                <li>css, scss</li>
-                                <li>js</li>
-                                <li>bootstrap</li>
-                                <li></li>
-                                <li></li>
+                            <ul class="skills_wrap">
+                                <li><span>HTML/HTML5</span> <span>(2 years of experience) Advanced, use now.</span></li>
+                                <li><span>CSS / SCSS</span> <span>(2 years of experience) Advanced, use now.</span></li>
+                                <li><span>JS IE6 +, jQuery</span> <span>(2 years of experience) Mid-level, use now.</span></li>
+                                <li><span>Bootstrap 3, 4, 5</span> <span>(2 years of experience) Advanced, use now.</span></li>
+                                <li><span>BEM methodology</span> <span>(2 years of experience) Mid-level, use now.</span></li>
+                                <li><span>WordPress</span> <span>(1.5 years of experience) Mid-level, use now.</span></li>
+                                <li><span>PHP</span> <span>(1.5 years of experience) Low-level, use now.</span></li>
+                                <li><span>React.js</span> <span>(6 months of experience) Beginner, use now.</span></li>
+                                <li><span>Vue.js</span> <span>(Components layout) Beginner</span></li>
+                                <li><span>GIT</span> <span>(1 year of experience) Mid-level, use now.</span></li>
+                                <li><span>Gulp</span> <span>(1 year of experience) Mid-level, use now.</span></li>
+                                <li><span>Adobe Photoshop, Figma</span> <span>(2 years of experience) Mid-level, use now.</span></li>
+                                <li>English - Intermediate</li>
+                                <li>Responsive, adaptive HTML-coding</li>
+
                             </ul>
                         </div>
                     </div>
                 </div>
             </section>
             <section class="work">
-                <h3 class="text-center mb-2">Work</h3>
+                <h3 class="text-center mb-3">Work</h3>
                 <div class="container">
                     <div class="row">
-                        <div class="col-1">
+                        <div class="col-12 col-sm-1 work-img">
                             <img class="work_img" src="img/briefcase.svg" alt="icon">
                         </div>
-                        <div class="col-3">
-                            October 2019 - October 2020
+                        <div class="col-12 col-sm-4 work-date">
+                            November 2019 - till now
                         </div>
-                        <div class="col-8">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque consequatur cum distinctio dolorum eum expedita fuga laborum sint sunt, tempore temporibus totam veniam? A eveniet laudantium neque obcaecati? Magni.</p>
+                        <div class="col-12 col-sm-7">
+                            <p>Front-end developer at NDA</p>
+                            <ul>
+                                <li>- development of a couple of blogs on React.js, also layout of React.js components on other sites</li>
+                                <li>- development sites on the WordPress</li>
+                                <li>- development sites on HTML, CSS, JS</li>
+                                <li>- working with CEO and back-end developer</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-1 work-img">
+                            <img class="work_img" src="img/briefcase.svg" alt="icon">
+                        </div>
+                        <div class="col-12 col-sm-4 work-date">
+                            Jun 2019 - September 2019
+                        </div>
+                        <div class="col-12 col-sm-7">
+                            <p>Junior Front-end Developer at Global Solutions for your bussiness GS4B</p>
+                            <ul>
+                                <li>- development sites on the WordPress</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-1 work-img">
+                            <img class="work_img" src="img/briefcase.svg" alt="icon">
+                        </div>
+                        <div class="col-12 col-sm-4 work-date">
+                            Jun 2014 - May 2019
+                        </div>
+                        <div class="col-12 col-sm-7">
+                            <p>Military at Ministry of Defence</p>
                         </div>
                     </div>
                 </div>
@@ -108,22 +149,29 @@
         <article id="my-works" class="my-works">
             <section>
                 <h2 class="text-center mb-2">My Works</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <p>Due to the corporate agreement, the latest works will not be published or will be partially altered. </p>
+                        </div>
+                    </div>
+                </div>
             </section>
             <section>
                 <div class="container works-list_wrap">
                     <div class="row works-list">
                         <div class="col-12 col-sm-6 col-md-4 works-list_item">
                             <div class="works-list_item__img">
-                                <img src="img/works/work1.jpg" alt="work img">
+                                <img src="img/works/pet-pr1.jpg" alt="work img">
                                 <div class="works-list_item__img-hover">
-                                    <a href="https://andrey-rudnik.github.io/First/index.html" target="_blank">Visit</a>
+                                    <a href="https://andrey-rudnik.github.io/pet1/index.html" target="_blank">Visit</a>
                                 </div>
                             </div>
                             <spna>css, html, 1</spna>
                         </div>
                         <div class="col-12 col-sm-6 col-md-4 works-list_item">
                             <div class="works-list_item__img">
-                                <img src="img/works/work1.jpg" alt="work img">
+                                <img src="img/works/pet-pr2.jpg" alt="work img">
                                 <div class="works-list_item__img-hover">
                                     <a href="https://andrey-rudnik.github.io/Second/index.html" target="_blank">Visit</a>
                                 </div>
@@ -170,19 +218,22 @@
                 </div>
             </section>
         </article>
-        <article id="contacts" class="contacts">
+        <article id="contacts" class="contacts mb-5">
             <section>
-                <h3 class="text-center mb-2">Contacts</h3>
+                <h3 class="text-center mb-3">Contacts</h3>
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <ul>
+                            <ul class="contacts_wrap">
                                 <li class="linkedin-img">
                                     <a href="https://www.linkedin.com/in/andrey-rudnik-smile/" target="_blank">
                                         <img src="img/linkedin.svg" alt="linkedin">
+                                        <span>Andrey-Rudnik</span>
                                     </a>
                                 </li>
-                                <li>andr.rudnik@gmail.com</li>
+                                <li><span>E-mail:</span>
+                                    <a href = "mailto:andr.rudnik@gmail.com">andr.rudnik@gmail.com</a>
+                                </li>
                                 <li><a href="https://github.com/Andrey-rudnik" target="_blank">Github</a></li>
                                 <a href="Andere-Rudnik-SV.txt" download>Download SV</a>
                             </ul>
@@ -218,5 +269,4 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
-
 </html>

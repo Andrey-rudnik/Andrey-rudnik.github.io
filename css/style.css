@@ -2,6 +2,9 @@ h1{
     color: #ffffff;
     text-transform: uppercase;
 }
+p{
+    margin-bottom: 5px;
+}
 ul, li{
     list-style: none;
     padding: 0;
@@ -9,6 +12,13 @@ ul, li{
 img{
     width: 100%;
 }
+article{
+    margin-bottom: 40px;
+}
+section{
+    margin-bottom: 20px;
+}
+
 
 /*----------------Header--------*/
 header{
@@ -66,7 +76,7 @@ header{
     font-weight: 500;
 }
 .top-main_img__links a:hover{
-    color: #386cff;
+    color: #43c7cb;
 }
 /*--------/-Main Image-------------*/
 
@@ -76,7 +86,28 @@ header{
 }
 
 .work_img{
-    width: 50px;
+    width: 30px;
+}
+.about-me_info{
+    margin-top: 15px;
+}
+.skills_wrap>li span:last-child{
+    color: #a3a3a3;
+}
+.work ul>li{
+    color: #a3a3a3;
+}
+@media screen and (max-width: 560px) {
+    .about-me_info>h5, .about-me_info>p{
+        text-align: center;
+    }
+    .work-img{
+        text-align: center;
+    }
+    .work-date{
+        text-align: center;
+        margin: 10px 0;
+    }
 }
 /*---------/-About me----------------*/
 
@@ -112,11 +143,26 @@ header{
 /*----------/-My Works-----------------*/
 
 /*-----------Contacts-------------------*/
-
+.linkedin-img>a{
+    display: flex;
+    justify-content: center;
+}
 .linkedin-img img{
-    width: 25px;
+    width: 20px;
     background-color: #ffffff;
     border-radius: 5px;
+    margin-right: 8px;
+}
+.contacts_wrap{
+    text-align: center;
+}
+.contacts_wrap a{
+    text-decoration: none;
+    color: #0137cf;
+    transition: all .3s;
+}
+.contacts_wrap a:hover{
+    color: #43c7cb;
 }
 
 /*----------/-Contacts-------------------*/
@@ -132,7 +178,7 @@ footer a{
 }
 .to-top{
     position: relative;
-    text-align: center;
+    left: calc(50% - 17px);;
 }
 .to-top img{
     width: 20px;
@@ -145,6 +191,5 @@ footer a{
     background-color: #6692ff;
     border-radius: 50%;
 }
-
 
 /*-------------/-Footer------------------*/
