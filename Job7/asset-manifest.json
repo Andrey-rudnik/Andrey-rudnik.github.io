@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.69350e51.chunk.css",
+    "main.js": "/static/js/main.51081157.chunk.js",
+    "main.js.map": "/static/js/main.51081157.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.765d7142.js",
+    "runtime-main.js.map": "/static/js/runtime-main.765d7142.js.map",
+    "static/css/2.667bd7d2.chunk.css": "/static/css/2.667bd7d2.chunk.css",
+    "static/js/2.30dab232.chunk.js": "/static/js/2.30dab232.chunk.js",
+    "static/js/2.30dab232.chunk.js.map": "/static/js/2.30dab232.chunk.js.map",
+    "static/js/3.ea70f514.chunk.js": "/static/js/3.ea70f514.chunk.js",
+    "static/js/3.ea70f514.chunk.js.map": "/static/js/3.ea70f514.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.667bd7d2.chunk.css.map": "/static/css/2.667bd7d2.chunk.css.map",
+    "static/css/main.69350e51.chunk.css.map": "/static/css/main.69350e51.chunk.css.map",
+    "static/js/2.30dab232.chunk.js.LICENSE.txt": "/static/js/2.30dab232.chunk.js.LICENSE.txt",
+    "static/media/SideMenu.module.scss": "/static/media/arrow.9bf7bc4d.svg",
+    "static/media/comment_1.af8748bf.png": "/static/media/comment_1.af8748bf.png",
+    "static/media/comment_3.0c4506f3.png": "/static/media/comment_3.0c4506f3.png",
+    "static/media/all.css": "/static/media/fa-solid-900.46fdbd2d.woff",
+    "static/media/logo2.c00fc77b.png": "/static/media/logo2.c00fc77b.png",
+    "static/media/m1.4c8113f7.jpg": "/static/media/m1.4c8113f7.jpg",
+    "static/media/m2.6bebb0fd.jpg": "/static/media/m2.6bebb0fd.jpg",
+    "static/media/m4.b5a7ed23.jpg": "/static/media/m4.b5a7ed23.jpg",
+    "static/media/p1.c3ca7479.jpg": "/static/media/p1.c3ca7479.jpg",
+    "static/media/p2.50311274.jpg": "/static/media/p2.50311274.jpg",
+    "static/media/p3.e91857be.jpg": "/static/media/p3.e91857be.jpg",
+    "static/media/p4.8231930c.jpg": "/static/media/p4.8231930c.jpg",
+    "static/media/p5.8110c673.jpg": "/static/media/p5.8110c673.jpg",
+    "static/media/p6.90ea28af.jpg": "/static/media/p6.90ea28af.jpg",
+    "static/media/p7.35b158c4.jpg": "/static/media/p7.35b158c4.jpg",
+    "static/media/p8.0157d89b.jpg": "/static/media/p8.0157d89b.jpg",
+    "static/media/slick-theme.css": "/static/media/slick.c94f7671.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.765d7142.js",
+    "static/css/2.667bd7d2.chunk.css",
+    "static/js/2.30dab232.chunk.js",
+    "static/css/main.69350e51.chunk.css",
+    "static/js/main.51081157.chunk.js"
+  ]
+}
