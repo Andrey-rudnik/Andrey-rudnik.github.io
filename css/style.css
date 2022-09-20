@@ -113,9 +113,19 @@ header{
 
 /*-----------My Works-----------------*/
 
+
+.works-list_item{
+    margin-bottom: 16px;
+}
 .works-list_item__img{
     position: relative;
     overflow: hidden;
+    max-height: 312px;
+    margin-bottom: 10px;
+}
+.works-list_item>p{
+    font-weight: 700;
+    font-size: 18px;
 }
 .works-list_item__img-hover>a{
     position: absolute;
